@@ -1,0 +1,36 @@
+{
+    "title": "Gitbook的使用",
+    "author": "excelkks",
+    "description": "测试, 记录Gitbook的配置和一些插件的使用",
+    "language": "zh-hans",
+    "plugins": [
+        "-lunr", "-search", "search-pro",
+        "-sharing",
+        "code",
+        "hide-element",
+        "back-to-top-button",
+        "splitter",
+        "insert-logo",
+        "popup",
+        "katex",
+        "expandable-chapters",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig":{
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "insert-logo": {
+            "url": "/images/aom.png",
+            "style": "background:none; max-height: 40px; min-height: 30px"
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "anchor-navigation-ex": {
+            "associatedWithSummary": false
+        }
+    }
+
+
+}
