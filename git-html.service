@@ -1,0 +1,11 @@
+[Unit]
+Description=automatically generate git website resouce
+
+[Service]
+User=www
+Group=www
+Type=oneshot
+ExecStart=/bin/bash /script/auto_git.sh /srv/git/av1_document /home/www/av1_document
+
+[Install]
+WantedBy=multi-user.target
